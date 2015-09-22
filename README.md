@@ -20,4 +20,4 @@ Finally we can use a Makefile:
     make
     ./the_world
 
-Follow the notes to see some tasks to interact with this material.
+Follow [the notes](http://ds.prof.ninja/class8) to see some tasks to interact with this material.
