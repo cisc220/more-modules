@@ -12,7 +12,8 @@ That will do the job.  But now I want to demonstrate creating object files, `*.o
     g++ -c teacher.cpp
     g++ -c student.cpp
     g++ -c monk.cpp
-    g++ main.cpp teacher.o student.o monk.o -o the_world
+    g++ -c main.cpp
+    g++ main.o teacher.o student.o monk.o -o the_world
     ./the_world
 
 Finally we can use a Makefile:
