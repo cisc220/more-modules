@@ -7,6 +7,6 @@ Teacher::Teacher(){
 
 Teacher::~Teacher(){
     std::cout << 
-    "A teacher dies and their work live on. Erased." 
+    "A teacher dies but their work lives on. Erased." 
     << std::endl;
 }
